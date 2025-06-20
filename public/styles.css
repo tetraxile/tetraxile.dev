@@ -20,14 +20,30 @@ hr {
     color: gray;
 }
 
-.project {
-    /* padding: 0 2em; */
-}
+/* .project {
+    padding: 0 2em;
+} */
 
-section > h2 {
+section>h2 {
     text-align: center;
 }
 
 section p {
     margin: 0 2em 1em;
+}
+
+@media screen and (max-width: 90rem) {
+    main {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 45rem) {
+    section {
+        padding: 0.5em 1em;
+    }
+
+    section p {
+        margin: 0 1em 1em;
+    }
 }

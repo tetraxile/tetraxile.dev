@@ -1,6 +1,6 @@
 body {
     background-color: rgb(143, 172, 203);
-    background-image: url(assets/background-sheep.webp);
+    background: url(assets/background-sheep.webp) no-repeat fixed center center;
 }
 
 main {

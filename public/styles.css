@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(143, 172, 203);
+    background-image: url(assets/background-sheep.webp);
+}
+
+main {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+section {
+    margin: 2em 0;
+    padding: 0.5em 2em;
+    background-color: rgba(211, 211, 211, 50%);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+hr {
+    color: gray;
+}
+
+.project {
+    /* padding: 0 2em; */
+}
+
+section > h2 {
+    text-align: center;
+}
+
+section p {
+    margin: 0 2em 1em;
+}
